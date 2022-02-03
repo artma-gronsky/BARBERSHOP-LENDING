@@ -1,7 +1,5 @@
-$white: #fff;
-$mainFontFamily: 'PT Sans Narrow', sans-serif;
-$mainFontSize: 16px;
-$blackLineHeight: 70px;
+@import "variable";
+
 *{
   box-sizing: border-box;
   padding:0;
@@ -25,21 +23,13 @@ body{
   min-width: 600px;
   padding: 0;
   margin: 0;
-
+  background-color: #010101;
   background-image: url("/assets/images/Layer.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: revert;
+  background-size: contain;
+  //background-position: revert;
+  background-position: center;
   background-position-y: $blackLineHeight;
-}
-
-
-//common styles
-.content-wrap{
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 950px;
-  height: 100%;
 }
 
 .back-line{
@@ -63,10 +53,7 @@ body{
 }
 
 .logo{
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin: 60px auto 80px;
   display: block;
   width: 365px;
 }
@@ -143,7 +130,6 @@ footer{
         margin-left: auto;
         margin-right: auto;
 
-
         li{
           width: 40px;
           height: 40px;
@@ -179,47 +165,10 @@ footer{
   }
 }
 
-//common styles
-.button-link{
-  color: $white;
-  text-decoration: none;
-  background: black;
-  display: block;
-  padding: 10px 0;
-  text-align: center;
-  line-height: 24px;
-}
-
 .footer-container-item{
   width: 285px;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-//common styles
-.section-wrap{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  //margin-bottom: 35px;
-
-  .box{
-    margin-bottom: 35px;
-    background-color: #f9f6f3;
-    &:nth-child(2n){
-      box-shadow: rgb(0 0 0 / 10%) -10px 0px 20px -14px;
-      padding-left: 92px;
-    }
-    width: 470px;
-    padding: 50px;
-   // flex-grow: 1;
-
-    h2{
-      margin-bottom: 35px;
-    }
-
-  }
 }
 
 .news{
@@ -252,6 +201,42 @@ footer{
     width: 300px;
     .button-link{
       width: 135px;
+    }
+  }
+}
+
+.contacts{
+  h2{
+    white-space: nowrap;
+  }
+  p{
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 24px;
+  };
+  div{
+    width: 300px;
+    .button-link{
+      width: 135px;
+    }
+  }
+}
+
+.appointment{
+  p{
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  form{
+    margin-bottom: 35px;
+  }
+
+  div{
+    width: 300px;
+    .button-link{
+      width: 300px;
     }
   }
 }

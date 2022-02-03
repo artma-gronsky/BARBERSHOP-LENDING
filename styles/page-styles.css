@@ -21,18 +21,12 @@ body {
   min-width: 600px;
   padding: 0;
   margin: 0;
+  background-color: #010101;
   background-image: url("/assets/images/Layer.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: revert;
+  background-size: contain;
+  background-position: center;
   background-position-y: 70px;
-}
-
-.content-wrap {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 950px;
-  height: 100%;
 }
 
 .back-line {
@@ -54,10 +48,7 @@ body {
 }
 
 .logo {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin: 60px auto 80px;
   display: block;
   width: 365px;
 }
@@ -155,40 +146,10 @@ footer .footer-grey-line .footer-content p a {
   color: white;
 }
 
-.button-link {
-  color: #fff;
-  text-decoration: none;
-  background: black;
-  display: block;
-  padding: 10px 0;
-  text-align: center;
-  line-height: 24px;
-}
-
 .footer-container-item {
   width: 285px;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-.section-wrap {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.section-wrap .box {
-  margin-bottom: 35px;
-  background-color: #f9f6f3;
-  width: 470px;
-  padding: 50px;
-}
-.section-wrap .box:nth-child(2n) {
-  box-shadow: rgba(0, 0, 0, 0.1) -10px 0px 20px -14px;
-  padding-left: 92px;
-}
-.section-wrap .box h2 {
-  margin-bottom: 35px;
 }
 
 .news {
@@ -217,6 +178,36 @@ footer .footer-grey-line .footer-content p a {
 }
 .gallery div .button-link {
   width: 135px;
+}
+
+.contacts h2 {
+  white-space: nowrap;
+}
+.contacts p {
+  margin-bottom: 35px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.contacts div {
+  width: 300px;
+}
+.contacts div .button-link {
+  width: 135px;
+}
+
+.appointment p {
+  margin-bottom: 35px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.appointment form {
+  margin-bottom: 35px;
+}
+.appointment div {
+  width: 300px;
+}
+.appointment div .button-link {
+  width: 300px;
 }
 
 /*# sourceMappingURL=page-styles.css.map */

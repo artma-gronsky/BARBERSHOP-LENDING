@@ -1,0 +1,38 @@
+.content-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 950px;
+  height: 100%;
+}
+
+.button-link {
+  color: #fff;
+  text-decoration: none;
+  background: black;
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  line-height: 24px;
+}
+
+.section-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-wrap .box {
+  margin-bottom: 35px;
+  background-color: #f9f6f3;
+  width: 470px;
+  padding: 50px 80px 50px 90px;
+}
+.section-wrap .box:nth-child(2n) {
+  box-shadow: rgba(0, 0, 0, 0.1) -10px 0px 20px -14px;
+  padding-left: 92px;
+}
+.section-wrap .box h2 {
+  margin-bottom: 35px;
+}
+
+/*# sourceMappingURL=common-styles.css.map */
