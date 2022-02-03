@@ -231,6 +231,16 @@ footer{
 
   form{
     margin-bottom: 35px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  form{
+    div{
+      width: 140px;
+    }
   }
 
   div{
@@ -238,6 +248,27 @@ footer{
     .button-link{
       width: 300px;
     }
+  }
+}
+
+//comon
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+
+  label{
+    width: 140px;
+  }
+
+  input{
+    border: 2px solid #000101;
+    padding: 5px;
+    font-size: 14px;
+    width: 140px;
+
+    font-size: 14px;
+    font-family: $mainFontFamily;
   }
 }
 

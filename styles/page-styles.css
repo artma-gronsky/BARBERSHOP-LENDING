@@ -202,12 +202,36 @@ footer .footer-grey-line .footer-content p a {
 }
 .appointment form {
   margin-bottom: 35px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.appointment form div {
+  width: 140px;
 }
 .appointment div {
   width: 300px;
 }
 .appointment div .button-link {
   width: 300px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+}
+.form-group label {
+  width: 140px;
+}
+.form-group input {
+  border: 2px solid #000101;
+  padding: 5px;
+  font-size: 14px;
+  width: 140px;
+  font-size: 14px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 /*# sourceMappingURL=page-styles.css.map */
