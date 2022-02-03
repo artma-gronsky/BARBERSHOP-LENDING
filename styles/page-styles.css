@@ -18,6 +18,7 @@ html {
 }
 
 body {
+  min-width: 600px;
   padding: 0;
   margin: 0;
   background-image: url("/assets/images/Layer.png");
@@ -129,6 +130,13 @@ footer .footer-grey-line .footer-content .lets-make-a-friends {
 }
 footer .footer-grey-line .footer-content .lets-make-a-friends li {
   width: 40px;
+  height: 40px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
 }
 footer .footer-grey-line .footer-content p {
   font-size: 14px;
@@ -159,6 +167,8 @@ footer .footer-grey-line .footer-content p a {
 
 .footer-container-item {
   width: 285px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=page-styles.css.map */
