@@ -4,8 +4,12 @@
 .flex.space-between {
   justify-content: space-between;
 }
-.flex .align-items-center {
+.flex.align-items-center {
   align-items: center;
+}
+
+.m-t-15 {
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=predefined-styles.css.map */

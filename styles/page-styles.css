@@ -31,6 +31,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 950px;
+  height: 100%;
 }
 
 .back-line {
@@ -60,6 +61,9 @@ body {
   width: 365px;
 }
 
+.user-menu li {
+  margin: 0 15px;
+}
 .user-menu button {
   background-color: black;
   border: none;
@@ -85,6 +89,9 @@ body {
 .features {
   color: #fff;
 }
+.features .features-list {
+  margin-bottom: 80px;
+}
 .features .features-list li {
   width: 268px;
   margin: 0 10px;
@@ -104,6 +111,54 @@ body {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+}
+
+footer .footer-grey-line {
+  background-color: #202020;
+  height: 194px;
+  width: 100%;
+}
+footer .footer-grey-line .footer-content {
+  height: 100%;
+}
+footer .footer-grey-line .footer-content .lets-make-a-friends {
+  width: 145px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footer-grey-line .footer-content .lets-make-a-friends li {
+  width: 40px;
+}
+footer .footer-grey-line .footer-content p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+footer .footer-grey-line .footer-content p.address {
+  font-size: 13px;
+}
+footer .footer-grey-line .footer-content p.developed-by {
+  width: 140px;
+  margin-left: auto;
+  text-align: center;
+}
+footer .footer-grey-line .footer-content p a {
+  color: white;
+}
+
+.button-link {
+  color: #fff;
+  text-decoration: none;
+  background: black;
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  line-height: 24px;
+}
+
+.footer-container-item {
+  width: 285px;
 }
 
 /*# sourceMappingURL=page-styles.css.map */

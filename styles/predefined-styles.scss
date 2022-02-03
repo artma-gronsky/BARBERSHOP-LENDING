@@ -5,7 +5,11 @@
     justify-content: space-between;
   }
 
-  .align-items-center{
+  &.align-items-center{
     align-items: center;
   }
+}
+
+.m-t-15{
+  margin-top: 15px;
 }
