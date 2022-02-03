@@ -171,4 +171,52 @@ footer .footer-grey-line .footer-content p a {
   margin-right: 10px;
 }
 
+.section-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-wrap .box {
+  margin-bottom: 35px;
+  background-color: #f9f6f3;
+  width: 470px;
+  padding: 50px;
+}
+.section-wrap .box:nth-child(2n) {
+  box-shadow: rgba(0, 0, 0, 0.1) -10px 0px 20px -14px;
+  padding-left: 92px;
+}
+.section-wrap .box h2 {
+  margin-bottom: 35px;
+}
+
+.news {
+  line-height: 24px;
+}
+.news .news-item {
+  margin-bottom: 35px;
+}
+.news .news-item p {
+  font-size: 14px;
+}
+.news a.button-link {
+  width: 140px;
+}
+
+.gallery figure {
+  width: 300px;
+  margin-bottom: 35px;
+}
+.gallery figure img {
+  vertical-align: middle;
+  border: 8px solid #fff;
+}
+.gallery div {
+  width: 300px;
+}
+.gallery div .button-link {
+  width: 135px;
+}
+
 /*# sourceMappingURL=page-styles.css.map */
