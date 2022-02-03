@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 ul {
   list-style: none;
 }
@@ -47,6 +51,15 @@ body {
   text-transform: uppercase;
 }
 
+.logo {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  display: block;
+  width: 365px;
+}
+
 .user-menu button {
   background-color: black;
   border: none;
@@ -56,16 +69,41 @@ body {
   font-size: 16px;
   font-family: "PT Sans Narrow", sans-serif;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.user-menu button:before {
+  content: "";
+  display: block;
+  background: url(/assets/icons/login.png) no-repeat top right;
+  color: #fff;
+  width: 15px;
+  margin-right: 10px;
+  height: 15px;
 }
 
-.flex {
-  display: flex;
+.features {
+  color: #fff;
 }
-.flex.space-between {
-  justify-content: space-between;
+.features .features-list li {
+  width: 268px;
+  margin: 0 10px;
 }
-.flex .align-items {
-  align-items: center;
+.features .features-list li h2 {
+  text-align: center;
+}
+.features .features-list li h2:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 30px auto;
+  background: url(/assets/icons/romb.png) no-repeat top right;
+}
+.features .features-list li p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=page-styles.css.map */

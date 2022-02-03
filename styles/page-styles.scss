@@ -8,6 +8,10 @@ $blackLineHeight: 70px;
   margin: 0;
 }
 
+h2{
+  font-size: 30px;
+}
+
 ul{
   list-style: none;
 }
@@ -56,6 +60,15 @@ body{
   text-transform: uppercase;
 }
 
+.logo{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  display: block;
+  width: 365px;
+}
+
 .user-menu{
   button{
     background-color: black;
@@ -66,19 +79,45 @@ body{
     font-size: $mainFontSize;
     font-family: $mainFontFamily;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    &:before{
+      content: "";
+      display: block;
+      background: url(/assets/icons/login.png) no-repeat top right;
+      color: #fff;
+      width: 15px;
+      margin-right: 10px;
+      height: 15px;
+    }
   }
 }
 
-// todo: move somewhere else
-.flex{
-  display: flex;
+.features{
+  color: $white;
 
-  &.space-between{
-    justify-content: space-between;
-  }
-
-  .align-items{
-    align-items: center;
+  .features-list{
+    li{
+      width: 268px;
+      margin: 0 10px;
+      h2{
+        text-align: center;
+        &:after{
+          content: "";
+          display: block;
+          width: 30px;
+          height: 30px;
+          margin: 30px auto;
+          background: url(/assets/icons/romb.png) no-repeat top right;
+        }
+      }
+      p{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
   }
 }
 
