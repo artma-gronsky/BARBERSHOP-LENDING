@@ -1,0 +1,86 @@
+$white: #fff;
+$mainFontFamily: 'PT Sans Narrow', sans-serif;
+$mainFontSize: 16px;
+$blackLineHeight: 70px;
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+html{
+  font-family: $mainFontFamily;
+  font-size: $mainFontSize;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+
+  background-image: url("/assets/images/Layer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: revert;
+  background-position-y: $blackLineHeight;
+}
+
+.content-wrap{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 950px;
+}
+
+
+
+.back-line{
+  height: $blackLineHeight;
+  background-color: black;
+  .nav-menu{
+    li{
+      margin:0 15px;
+      a{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.top-header-menu{
+  color: $white;
+  height: $blackLineHeight;
+  text-transform: uppercase;
+}
+
+.user-menu{
+  button{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: $mainFontSize;
+    font-family: $mainFontFamily;
+    text-transform: uppercase;
+  }
+}
+
+// todo: move somewhere else
+.flex{
+  display: flex;
+
+  &.space-between{
+    justify-content: space-between;
+  }
+
+  .align-items{
+    align-items: center;
+  }
+}
+
+
+
