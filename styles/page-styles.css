@@ -22,7 +22,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #010101;
-  background-image: url("/assets/images/Layer.png");
+  background-image: url("../assets/images/Layer.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -97,7 +97,7 @@ body {
   width: 30px;
   height: 30px;
   margin: 30px auto;
-  background: url(/assets/icons/romb.png) no-repeat top right;
+  background: url(../assets/icons/romb.png) no-repeat top right;
 }
 .features .features-list li p {
   font-size: 14px;
